@@ -5,7 +5,7 @@
   "repository": "git@git.sankuai.com/vm/waimai_web.git",
   "author": "XU Kai (xukai@meituan.com)",
   "scripts": {
-    "start": "node task/lsloader_es6.js && webpack --config config/webpack.config.js && node task/addCombo.js"
+    "start": "node task/index.js"
   },
   "dependencies": {
     "async": "0.2.9",

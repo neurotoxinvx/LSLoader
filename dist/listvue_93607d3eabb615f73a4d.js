@@ -155,7 +155,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, _vm._l((_vm.list), function(item) {
     return _c('li', {
       staticClass: "list-item"
-    }, [_vm._v("\n        " + _vm._s(item) + "\n    ")])
+    }, [_vm._v("\n    " + _vm._s(item) + "\n  ")])
   }))
 },staticRenderFns: []}
 module.exports.render._withStripped = true
@@ -176,7 +176,7 @@ exports = module.exports = __webpack_require__("FZ+f")();
 
 
 // module
-exports.push([module.i, "\n.list-wrap{\n    margin: 0;\n    padding: 0;\n    list-style: none;\n}\n.list-item{\n    margin: 0;\n    padding: 0;\n    list-style:none;\n    /*min-height: 40px;*/\n    background: #fff;\n    font-size: .28rem;\n    padding: .2rem .3rem;\n    position: relative;\n}\n.list-item:after{\n    content: '';\n    display: block;\n    width: 100%;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    border-bottom: 1px solid #ccc;\n    transform: scale(1, 0.3);\n}\n", ""]);
+exports.push([module.i, "\n.list-wrap{\n  margin: 0;\n  padding: 0;\n  list-style: none;\n}\n.list-item{\n  margin: 0;\n  padding: 0;\n  list-style:none;\n  /*min-height: 40px;*/\n  background: #fff;\n  font-size: .28rem;\n  padding: .2rem .3rem;\n  position: relative;\n}\n.list-item:after{\n  content: '';\n  display: block;\n  width: 100%;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  border-bottom: 1px solid #ccc;\n  transform: scale(1, 0.3);\n}\n", ""]);
 
 // exports
 
@@ -454,11 +454,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    props: {
-        list: {
-            default: false
-        }
+  props: {
+    list: {
+      default: false
     }
+  }
 });
 
 /***/ }),

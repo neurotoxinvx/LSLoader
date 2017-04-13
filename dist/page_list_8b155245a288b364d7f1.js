@@ -18,13 +18,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 let data = ['item1', 'item2', 'item3', 'item4', 'item5', 'item6'];
 let vue = new __WEBPACK_IMPORTED_MODULE_0__lib_vue_min_js___default.a({
-    el: '#root',
-    data: {
-        listData: data
-    },
-    components: {
-        List: __WEBPACK_IMPORTED_MODULE_1__component_list_vue___default.a
-    }
+  el: '#root',
+  data: {
+    listData: data
+  },
+  components: {
+    List: __WEBPACK_IMPORTED_MODULE_1__component_list_vue___default.a
+  }
 });
 console.log('demo/vue');
 
