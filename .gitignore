@@ -7,4 +7,5 @@ lsloader/build/*
 build/*
 rev-manifest.json
 logs
+.DS_Store
 npm-debug.log
